@@ -1,0 +1,26 @@
+# Ignore environment variables file (both client and server)
+client/.env
+server/.env
+
+# Ignore node_modules directories for both client and server
+client/node_modules/
+server/node_modules/
+
+# Ignore build/output directories for both client and server (if applicable)
+client/build/
+client/dist/
+server/build/
+server/dist/
+
+# Ignore temporary files (client & server)
+client/tmp/
+server/tmp/
+
+# Ignore log files
+*.log
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+.DS_Store
+*.swp
